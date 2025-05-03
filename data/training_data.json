@@ -1,0 +1,294 @@
+[
+  {
+    "intent": "loan_products",
+    "text": "do you guys offer loans"
+  },
+  {
+    "intent": "loan_products",
+    "text": "can i borrow some money"
+  },
+  {
+    "intent": "loan_products",
+    "text": "tell me about loans"
+  },
+  {
+    "intent": "loan_products",
+    "text": "what loan options do you have"
+  },
+  {
+    "intent": "loan_products",
+    "text": "i'm broke, need a loan"
+  },
+  {
+    "intent": "loan_products",
+    "text": "how do i apply for a loan"
+  },
+  {
+    "intent": "loan_products",
+    "text": "can i get a personal loan"
+  },
+  {
+    "intent": "loan_products",
+    "text": "loan application help please"
+  },
+  {
+    "intent": "loan_products",
+    "text": "what kinds of loans do you give"
+  },
+  {
+    "intent": "loan_products",
+    "text": "are home loans available here"
+  },
+  {
+    "intent": "greetings",
+    "text": "yo"
+  },
+  {
+    "intent": "greetings",
+    "text": "sup"
+  },
+  {
+    "intent": "greetings",
+    "text": "what\u2019s up"
+  },
+  {
+    "intent": "greetings",
+    "text": "good day"
+  },
+  {
+    "intent": "greetings",
+    "text": "good morning"
+  },
+  {
+    "intent": "greetings",
+    "text": "good afternoon"
+  },
+  {
+    "intent": "greetings",
+    "text": "good evening"
+  },
+  {
+    "intent": "greetings",
+    "text": "hey there"
+  },
+  {
+    "intent": "greetings",
+    "text": "hiya"
+  },
+  {
+    "intent": "greetings",
+    "text": "hello there"
+  },
+  {
+    "intent": "greetings",
+    "text": "hi bot"
+  },
+  {
+    "intent": "greetings",
+    "text": "hey banking assistant"
+  },
+  {
+    "intent": "greetings",
+    "text": "hey can you help me"
+  },
+  {
+    "intent": "account_types",
+    "text": "what types of accounts do you offer"
+  },
+  {
+    "intent": "account_types",
+    "text": "can you tell me about your account options"
+  },
+  {
+    "intent": "account_types",
+    "text": "which accounts can I open"
+  },
+  {
+    "intent": "account_types",
+    "text": "do you have savings and current accounts"
+  },
+  {
+    "intent": "account_types",
+    "text": "tell me about your bank accounts"
+  },
+  {
+    "intent": "account_types",
+    "text": "i want to open an account, what are my choices"
+  },
+  {
+    "intent": "account_types",
+    "text": "what\u2019s the difference between your account types"
+  },
+  {
+    "intent": "account_types",
+    "text": "can you explain account types"
+  },
+  {
+    "intent": "account_types",
+    "text": "available banking accounts?"
+  },
+  {
+    "intent": "account_types",
+    "text": "show me the kinds of accounts you provide"
+  },
+  {
+    "intent": "fixed_deposits",
+    "text": "do you offer fixed deposits"
+  },
+  {
+    "intent": "fixed_deposits",
+    "text": "tell me about your fd rates"
+  },
+  {
+    "intent": "fixed_deposits",
+    "text": "can i invest in a fixed deposit"
+  },
+  {
+    "intent": "fixed_deposits",
+    "text": "what's the interest rate on fixed deposits"
+  },
+  {
+    "intent": "fixed_deposits",
+    "text": "i'm interested in a term deposit"
+  },
+  {
+    "intent": "fixed_deposits",
+    "text": "how long can I keep a fixed deposit"
+  },
+  {
+    "intent": "fixed_deposits",
+    "text": "can you help me open an fd"
+  },
+  {
+    "intent": "fixed_deposits",
+    "text": "show me your fixed deposit options"
+  },
+  {
+    "intent": "fixed_deposits",
+    "text": "what are your term deposit schemes"
+  },
+  {
+    "intent": "fixed_deposits",
+    "text": "explain fixed deposit benefits"
+  },
+  {
+    "intent": "credit_cards",
+    "text": "do you offer credit cards"
+  },
+  {
+    "intent": "credit_cards",
+    "text": "can I get a credit card from your bank"
+  },
+  {
+    "intent": "credit_cards",
+    "text": "tell me about your credit card plans"
+  },
+  {
+    "intent": "credit_cards",
+    "text": "what credit cards do you provide"
+  },
+  {
+    "intent": "credit_cards",
+    "text": "i want a credit card"
+  },
+  {
+    "intent": "credit_cards",
+    "text": "what\u2019s the limit on your credit cards"
+  },
+  {
+    "intent": "credit_cards",
+    "text": "help me apply for a credit card"
+  },
+  {
+    "intent": "credit_cards",
+    "text": "what are your credit card benefits"
+  },
+  {
+    "intent": "credit_cards",
+    "text": "do you have low interest credit cards"
+  },
+  {
+    "intent": "credit_cards",
+    "text": "best credit card offers please"
+  },
+  {
+    "intent": "thanks",
+    "text": "thanks"
+  },
+  {
+    "intent": "thanks",
+    "text": "thank you"
+  },
+  {
+    "intent": "thanks",
+    "text": "thanks a lot"
+  },
+  {
+    "intent": "thanks",
+    "text": "much appreciated"
+  },
+  {
+    "intent": "thanks",
+    "text": "thank you so much"
+  },
+  {
+    "intent": "thanks",
+    "text": "really grateful"
+  },
+  {
+    "intent": "thanks",
+    "text": "cheers"
+  },
+  {
+    "intent": "thanks",
+    "text": "thanks a ton"
+  },
+  {
+    "intent": "thanks",
+    "text": "appreciate it"
+  },
+  {
+    "intent": "thanks",
+    "text": "many thanks"
+  },
+  {
+    "intent": "goodbye",
+    "text": "bye"
+  },
+  {
+    "intent": "goodbye",
+    "text": "goodbye"
+  },
+  {
+    "intent": "goodbye",
+    "text": "see you"
+  },
+  {
+    "intent": "goodbye",
+    "text": "take care"
+  },
+  {
+    "intent": "goodbye",
+    "text": "later"
+  },
+  {
+    "intent": "goodbye",
+    "text": "catch you later"
+  },
+  {
+    "intent": "goodbye",
+    "text": "have a nice day"
+  },
+  {
+    "intent": "goodbye",
+    "text": "peace"
+  },
+  {
+    "intent": "goodbye",
+    "text": "talk to you soon"
+  },
+  {
+    "intent": "goodbye",
+    "text": "i\u2019m out"
+  }
+]

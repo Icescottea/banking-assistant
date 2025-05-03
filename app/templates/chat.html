@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Banking Assistant</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <body>
+    <div class="page-wrapper">
+      <div class="chat-wrapper">
+        <div class="chat-container">
+          <div id="chat-box"></div>
+          <div class="input-card">
+            <form id="chat-form" class="chat-input-area">
+              <input type="text" id="user-input" placeholder="Ask me anything..." autocomplete="off" />
+              <button type="submit" aria-label="Send Message">
+                <svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 0 24 24" width="20" fill="#ffffff">
+                  <path d="M0 0h24v24H0z" fill="none"/>
+                  <path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"/>
+                </svg>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  
+
+  <script>
+    const form = document.getElementById('chat-form');
+    const chatBox = document.getElementById('chat-box');
+    const input = document.getElementById('user-input');
+
+    // Initial welcome message
+    window.addEventListener("DOMContentLoaded", () => {
+      chatBox.innerHTML += `<div class="message bot-message">Hello! 👋 Welcome to GolfWang Bank. How can I help you today?</div>`;
+      chatBox.scrollTop = chatBox.scrollHeight;
+    });
+
+    form.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      const message = input.value;
+      if (!message.trim()) return;
+
+      chatBox.innerHTML += `<div class="message user-message">${message}</div>`;
+      input.value = "";
+
+      const res = await fetch("/chat", {
+        method: "POST",
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ message })
+      });
+
+      const data = await res.json();
+      const botMsg = document.createElement("div");
+      botMsg.className = "message bot-message";
+      botMsg.innerHTML = `
+        ${data.response}
+        <div class="feedback">
+          <button class="thumb" data-value="up">👍</button>
+          <button class="thumb" data-value="down">👎</button>
+        </div>
+      `;
+      chatBox.appendChild(botMsg);
+      chatBox.scrollTop = chatBox.scrollHeight;
+
+      chatBox.addEventListener("click", async (e) => {
+      if (e.target.classList.contains("thumb")) {
+        const feedback = e.target.dataset.value;
+        const message = e.target.closest(".bot-message").innerText.trim().split("\n")[0];
+      
+        await fetch("/feedback", {
+          method: "POST",
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ message, feedback })
+        });
+      
+        e.target.parentElement.innerHTML = "Thanks for your feedback!";
+      }
+});
+
+    });
+  </script>
+</body>
+</html>

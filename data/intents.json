@@ -1,0 +1,27 @@
+{
+    "greetings": {
+      "patterns": ["hello", "hi", "good morning", "good evening"],
+      "response": "Hello! How can I assist you with your banking needs?"
+    },
+    "thanks": {
+      "patterns": ["thank you", "thanks"],
+      "response": "You're welcome!"
+    },
+    "goodbye": {
+      "patterns": ["bye", "see you", "goodbye"],
+      "response": "Goodbye! Have a nice day!"
+    },
+    "open_account": {
+      "patterns": ["how do I open an account", "open new account"],
+      "response": "You can open an account by visiting any branch with your NIC and a utility bill."
+    },
+    "required_documents": {
+      "patterns": ["what documents do i need", "documents for account"],
+      "response": "You will need a valid ID, proof of address, and a passport-sized photo."
+    },
+    "customer_support": {
+      "patterns": ["contact support", "customer care", "help desk"],
+      "response": "You can reach our support team at 011-2345678 or support@bank.com."
+    }
+  }
+  
