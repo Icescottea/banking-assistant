@@ -1,0 +1,207 @@
+[
+  {
+    "id": "greetings_1",
+    "user_input": "hi",
+    "expected_intent": "greetings"
+  },
+  {
+    "id": "greetings_2",
+    "user_input": "hello",
+    "expected_intent": "greetings"
+  },
+  {
+    "id": "greetings_3",
+    "user_input": "good morning",
+    "expected_intent": "greetings"
+  },
+  {
+    "id": "greetings_4",
+    "user_input": "hey there",
+    "expected_intent": "greetings"
+  },
+  {
+    "id": "greetings_5",
+    "user_input": "yo",
+    "expected_intent": "greetings"
+  },
+  {
+    "id": "account_opening_1",
+    "user_input": "How do I open an account?",
+    "expected_intent": "account_opening"
+  },
+  {
+    "id": "account_opening_2",
+    "user_input": "I want to create a new savings account",
+    "expected_intent": "account_opening"
+  },
+  {
+    "id": "account_opening_3",
+    "user_input": "Can I start a bank account online?",
+    "expected_intent": "account_opening"
+  },
+  {
+    "id": "funds_transfer_1",
+    "user_input": "How can I send money to another bank?",
+    "expected_intent": "funds_transfer"
+  },
+  {
+    "id": "funds_transfer_2",
+    "user_input": "Tell me about your fund transfer options",
+    "expected_intent": "funds_transfer"
+  },
+  {
+    "id": "funds_transfer_3",
+    "user_input": "Do you support UPI payments?",
+    "expected_intent": "funds_transfer"
+  },
+  {
+    "id": "cards_1",
+    "user_input": "How do I apply for a credit card?",
+    "expected_intent": "cards"
+  },
+  {
+    "id": "cards_2",
+    "user_input": "I lost my debit card",
+    "expected_intent": "cards"
+  },
+  {
+    "id": "cards_3",
+    "user_input": "Can I reset my card PIN?",
+    "expected_intent": "cards"
+  },
+  {
+    "id": "loans_1",
+    "user_input": "What types of loans do you have?",
+    "expected_intent": "loans"
+  },
+  {
+    "id": "loans_2",
+    "user_input": "Tell me about education loans",
+    "expected_intent": "loans"
+  },
+  {
+    "id": "loans_3",
+    "user_input": "What\u2019s the interest rate for home loans?",
+    "expected_intent": "loans"
+  },
+  {
+    "id": "investments_1",
+    "user_input": "Give me FD options",
+    "expected_intent": "investments"
+  },
+  {
+    "id": "investments_2",
+    "user_input": "What are your mutual fund plans?",
+    "expected_intent": "investments"
+  },
+  {
+    "id": "investments_3",
+    "user_input": "Can I get financial planning advice?",
+    "expected_intent": "investments"
+  },
+  {
+    "id": "branch_locator_1",
+    "user_input": "Where is the nearest branch?",
+    "expected_intent": "branch_locator"
+  },
+  {
+    "id": "branch_locator_2",
+    "user_input": "Find me an ATM near Colombo",
+    "expected_intent": "branch_locator"
+  },
+  {
+    "id": "branch_locator_3",
+    "user_input": "When do branches close?",
+    "expected_intent": "branch_locator"
+  },
+  {
+    "id": "support_1",
+    "user_input": "I need to contact customer service",
+    "expected_intent": "support"
+  },
+  {
+    "id": "support_2",
+    "user_input": "How can I file a complaint?",
+    "expected_intent": "support"
+  },
+  {
+    "id": "support_3",
+    "user_input": "Talk to a support agent",
+    "expected_intent": "support"
+  },
+  {
+    "id": "security_1",
+    "user_input": "How do I enable 2FA?",
+    "expected_intent": "security"
+  },
+  {
+    "id": "security_2",
+    "user_input": "What to do if I see fraud on my account?",
+    "expected_intent": "security"
+  },
+  {
+    "id": "security_3",
+    "user_input": "Tips for secure online banking",
+    "expected_intent": "security"
+  },
+  {
+    "id": "digital_banking_1",
+    "user_input": "I can't log into your app",
+    "expected_intent": "digital_banking"
+  },
+  {
+    "id": "digital_banking_2",
+    "user_input": "What features does your mobile banking offer?",
+    "expected_intent": "digital_banking"
+  },
+  {
+    "id": "digital_banking_3",
+    "user_input": "How do I register for internet banking?",
+    "expected_intent": "digital_banking"
+  },
+  {
+    "id": "offers_1",
+    "user_input": "What are your current offers?",
+    "expected_intent": "offers"
+  },
+  {
+    "id": "offers_2",
+    "user_input": "Any cashback on card use?",
+    "expected_intent": "offers"
+  },
+  {
+    "id": "offers_3",
+    "user_input": "Tell me about referral bonuses",
+    "expected_intent": "offers"
+  },
+  {
+    "id": "regulatory_1",
+    "user_input": "What is KYC and how do I do it?",
+    "expected_intent": "regulatory"
+  },
+  {
+    "id": "regulatory_2",
+    "user_input": "Do I need to fill FATCA forms?",
+    "expected_intent": "regulatory"
+  },
+  {
+    "id": "regulatory_3",
+    "user_input": "Where to upload my PAN card?",
+    "expected_intent": "regulatory"
+  },
+  {
+    "id": "feedback_1",
+    "user_input": "I have feedback to give",
+    "expected_intent": "feedback"
+  },
+  {
+    "id": "feedback_2",
+    "user_input": "Where can I leave a review?",
+    "expected_intent": "feedback"
+  },
+  {
+    "id": "feedback_3",
+    "user_input": "I want to suggest an improvement",
+    "expected_intent": "feedback"
+  }
+]

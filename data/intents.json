@@ -1,27 +1,41 @@
 {
-    "greetings": {
-      "patterns": ["hello", "hi", "good morning", "good evening"],
-      "response": "Hello! How can I assist you with your banking needs?"
-    },
-    "thanks": {
-      "patterns": ["thank you", "thanks"],
-      "response": "You're welcome!"
-    },
-    "goodbye": {
-      "patterns": ["bye", "see you", "goodbye"],
-      "response": "Goodbye! Have a nice day!"
-    },
-    "open_account": {
-      "patterns": ["how do I open an account", "open new account"],
-      "response": "You can open an account by visiting any branch with your NIC and a utility bill."
-    },
-    "required_documents": {
-      "patterns": ["what documents do i need", "documents for account"],
-      "response": "You will need a valid ID, proof of address, and a passport-sized photo."
-    },
-    "customer_support": {
-      "patterns": ["contact support", "customer care", "help desk"],
-      "response": "You can reach our support team at 011-2345678 or support@bank.com."
-    }
+  "account_opening": {
+    "response": "To open a new account, you'll need to visit the nearest branch with valid ID and address proof. Some accounts may support online applications."
+  },
+  "branch_locator": {
+    "response": "You can find our branch and ATM locations on our website or mobile app. Most branches operate from 9 AM to 4 PM on weekdays."
+  },
+  "cards": {
+    "response": "We offer debit and credit cards. You can apply online or at a branch. For lost cards or PIN reset, use the Cards section in our app or contact support."
+  },
+  "digital_banking": {
+    "response": "Our mobile and web apps provide access to banking services. If you're facing issues, try resetting your password or contacting support."
+  },
+  "feedback": {
+    "response": "We value your feedback. Submit suggestions or complaints via our app or at any branch."
+  },
+  "funds_transfer": {
+    "response": "You can transfer funds through our mobile app, online banking, or at any branch. We support NEFT, RTGS, and UPI methods."
+  },
+  "investments": {
+    "response": "You can invest in fixed deposits, recurring deposits, and mutual funds. Visit a branch for financial planning assistance."
+  },
+  "loans": {
+    "response": "We offer personal, home, vehicle, and education loans with competitive interest rates. Eligibility depends on income and credit profile."
+  },
+  "offers": {
+    "response": "We regularly offer discounts, cashback, and referral bonuses. Check our Offers page or app for updates."
+  },
+  "regulatory": {
+    "response": "To complete KYC, submit a valid ID and address proof. FATCA and tax documents are available at branches or upon request."
+  },
+  "security": {
+    "response": "Enable 2FA, avoid sharing OTPs, and report any suspicious activity. Fraud alerts are available via SMS and email."
+  },
+  "support": {
+    "response": "For support, call our helpline, chat online, or lodge a complaint through our app or website."
+  },
+  "greetings": {
+    "response": "Hello! \ud83d\udc4b How can I assist you with your banking needs today?"
   }
-  
+}
