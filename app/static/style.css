@@ -234,7 +234,7 @@ button[type="submit"]:hover {
   font-size: 3rem;
   line-height: 1.2;
   margin: 0 0 1rem;
-  font-family: "FSP DEMO - Articulat CF Light";
+  font-family: "Articulat CF Light";
   background: linear-gradient(45deg,
       #ff0000,
       #ff7300,
@@ -365,4 +365,26 @@ button[type="submit"]:hover {
   50% { background-position: 100% 50%; }
   100% { background-position: 0% 50%; }
 }
+
+@font-face {
+  font-family: "Houschka Pro Medium";
+  src: url("app/static/fonts/HouschkaPro-Medium.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Houschka Pro Light";
+  src: url("app/static/fonts/HouschkaPro-Light.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Articulat CF Light";
+  src: url("/app/static/fonts/Fontspring-DEMO-articulatcf-light-BF64a38d8b23c4f.otf") format("otf");
+  font-weight: normal;
+  font-style: normal;
+}
+
 
