@@ -1,3 +1,12 @@
+import sys
+import types
+
+# Monkeypatch to prevent unpickling error on missing 'sentence_transformers.model_card'
+if 'sentence_transformers.model_card' not in sys.modules:
+    dummy_module = types.ModuleType("sentence_transformers.model_card")
+    dummy_module.ModelCard = type("ModelCard", (), {})
+    sys.modules["sentence_transformers.model_card"] = dummy_module
+
 import joblib
 import json
 from database.db_handler import (
