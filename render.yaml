@@ -3,5 +3,8 @@ services:
     name: golfwang-chatbot
     env: python
     plan: free
-    buildCommand: pip install -r requirements.txt
+    buildCommand: |
+      pip install -r requirements.txt
+      python download_model.py
     startCommand: gunicorn run:app
+
