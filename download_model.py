@@ -2,7 +2,7 @@
 import requests
 import os
 
-url = "https://huggingface.co/ICESCOTTEA/banking-assistant-models/blob/main/transformer_intent_model.pkl"
+url = "https://huggingface.co/ICESCOTTEA/banking-assistant-models/resolve/main/transformer_intent_model.pkl"
 output_path = "models/transformer_intent_model.pkl"
 
 os.makedirs("models", exist_ok=True)
