@@ -6,81 +6,140 @@
   <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
 <body>
-  <body>
-    <div class="page-wrapper">
-      <div class="chat-wrapper">
-        <div class="chat-container">
-          <div id="chat-box"></div>
-          <div class="input-card">
-            <form id="chat-form" class="chat-input-area">
-              <input type="text" id="user-input" placeholder="Ask me anything..." autocomplete="off" />
-              <button type="submit" aria-label="Send Message">
-                <svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 0 24 24" width="20" fill="#ffffff">
-                  <path d="M0 0h24v24H0z" fill="none"/>
-                  <path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"/>
-                </svg>
-              </button>
-            </form>
-          </div>
+  <!-- Section One -->
+  <section class="section-one">
+    <nav class="navbar">
+      <div class="logo">golfwang</div>
+      <div class="nav-links">
+        <a href="#">Home</a>
+        <a href="#">Products</a>
+        <a href="#">Contact</a>
+      </div>
+    </nav>
+    <div class="hero-content">
+      <h1 class="hero-title">
+        Manage your<br>
+        finances. Control<br>
+        your savings
+      </h1>
+      <p class="hero-subtitle">
+        For those who want more from their money – there’s GolfWang
+      </p>
+      <button class="button-85" role="button">
+        Open a free account
+      </button>
+    </div>
+    <div class="stats-row">
+      <div class="stat-item">
+        <div class="stat-value">Upto 1 Mil</div>
+        <div class="stat-label">Credit limit</div>
+      </div>
+      <span class="separator">|</span>
+      <div class="stat-item">
+        <div class="stat-value">15 %</div>
+        <div class="stat-label">Cashback</div>
+      </div>
+      <span class="separator">|</span>
+      <div class="stat-item">
+        <div class="stat-value">4.1 %</div>
+        <div class="stat-label">Interest year/month</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Chat Panel (Right Third) -->
+  <div class="page-wrapper">
+    <div class="chat-wrapper">
+      <div class="chat-container">
+        <div id="chat-box"></div>
+        <div class="input-card">
+          <form id="chat-form" class="chat-input-area">
+            <input
+              type="text"
+              id="user-input"
+              placeholder="Ask me anything..."
+              autocomplete="off"
+            />
+            <button type="submit" aria-label="Send Message">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                height="20"
+                viewBox="0 0 24 24"
+                width="20"
+                fill="#ffffff"
+              >
+                <path d="M0 0h24v24H0z" fill="none"/>
+                <path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"/>
+              </svg>
+            </button>
+          </form>
         </div>
       </div>
     </div>
-  </body>
-  
+  </div>
 
   <script>
     const form = document.getElementById('chat-form');
     const chatBox = document.getElementById('chat-box');
     const input = document.getElementById('user-input');
 
-    // Initial welcome message
     window.addEventListener("DOMContentLoaded", () => {
-      chatBox.innerHTML += `<div class="message bot-message">Hello! 👋 Welcome to GolfWang Bank. How can I help you today?</div>`;
+      chatBox.innerHTML +=
+        `<div class="message bot-message">
+           Welcome to GolfWang Bank. How can I help you today?
+         </div>`;
       chatBox.scrollTop = chatBox.scrollHeight;
     });
 
-    form.addEventListener('submit', async (e) => {
+    form.addEventListener("submit", async (e) => {
       e.preventDefault();
-      const message = input.value;
-      if (!message.trim()) return;
-
-      chatBox.innerHTML += `<div class="message user-message">${message}</div>`;
+      const msg = input.value.trim();
+      if (!msg) return;
+      chatBox.innerHTML += `<div class="message user-message">${msg}</div>`;
       input.value = "";
 
       const res = await fetch("/chat", {
         method: "POST",
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ message })
+        headers: {'Content-Type': 'application/json'},
+        body: JSON.stringify({message: msg})
       });
-
-      const data = await res.json();
-      const botMsg = document.createElement("div");
-      botMsg.className = "message bot-message";
-      botMsg.innerHTML = `
-        ${data.response}
+      const { response } = await res.json();
+      const botDiv = document.createElement("div");
+      botDiv.className = "message bot-message";
+      botDiv.innerHTML = `
+        ${response}
         <div class="feedback">
-          <button class="thumb" data-value="up">👍</button>
-          <button class="thumb" data-value="down">👎</button>
-        </div>
-      `;
-      chatBox.appendChild(botMsg);
+          <button class="feedback-btn" data-value="up" aria-label="Thumbs up">
+            <svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 0 24 24" width="20" fill="#4caf50">
+              <path d="M0 0h24v24H0z" fill="none"/>
+              <path d="M1 21h4V9H1v12zM23 10c0-1.1-.9-2-2-2h-6.31l.95-4.57.03-.32c0-.41-.17-.79-.44-1.06L14.17 2 7.59 8.59C7.22 8.95 7 9.45 7 10v9c0 1.1.9 2 2 2h9c.78 0 1.48-.45 1.84-1.15l3.02-6.03c.09-.23.14-.47.14-.72v-1.1l-.01-.01L23 10z"/>
+            </svg>
+          </button>
+          <button class="feedback-btn" data-value="down" aria-label="Thumbs down">
+            <svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 0 24 24" width="20" fill="#f44336">
+              <path d="M0 0h24v24H0z" fill="none"/>
+              <path d="M15 3H6c-.78 0-1.48.45-1.84 1.15L1.14 10.18c-.09.23-.14.47-.14.72v1.1l.01.01L1 14c0 1.1.9 2 2 2h6.31l-.95 4.57-.03.32c0 .41.17.79.44 1.06L9.83 22l6.58-6.59c.37-.36.59-.86.59-1.41v-9c0-1.1-.9-2-2-2zm4 0v12h4V3h-4z"/>
+            </svg>
+          </button>
+        </div>`;
+      chatBox.appendChild(botDiv);
       chatBox.scrollTop = chatBox.scrollHeight;
+    });
 
-      chatBox.addEventListener("click", async (e) => {
-      if (e.target.classList.contains("thumb")) {
-        const feedback = e.target.dataset.value;
-        const message = e.target.closest(".bot-message").innerText.trim().split("\n")[0];
-      
-        await fetch("/feedback", {
-          method: "POST",
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({ message, feedback })
-        });
-      
-        e.target.parentElement.innerHTML = "Thanks for your feedback!";
-      }
-});
-
+    chatBox.addEventListener("click", async (e) => {
+      if (!e.target.classList.contains("thumb")) return;
+      const feedback = e.target.dataset.value;
+      const messageText = e.target
+        .closest(".bot-message")
+        .innerText
+        .split("\n")[0]
+        .trim();
+      await fetch("/feedback", {
+        method: "POST",
+        headers: {'Content-Type': 'application/json'},
+        body: JSON.stringify({message: messageText, feedback})
+      });
+      e.target.parentElement.innerHTML = "Thanks for your feedback!";
     });
   </script>
 </body>
