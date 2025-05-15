@@ -1,4 +1,146 @@
 [
+  { "intent": "account_opening", "text": "Open a checking account" },
+  { "intent": "account_opening", "text": "How can I register for a bank account?" },
+  { "intent": "account_opening", "text": "How do I open an account?" },
+  { "intent": "account_opening", "text": "I want to create a new account" },
+  { "intent": "account_opening", "text": "Steps to open a savings account" },
+  { "intent": "account_opening", "text": "What are the requirements to open an account?" },
+  { "intent": "account_opening", "text": "Guide me through opening an account" },
+  { "intent": "account_opening", "text": "Start a new account" },
+  { "intent": "account_opening", "text": "Help me start a bank account" },
+  { "intent": "account_opening", "text": "What do I need to bring to open an account?" },
+  { "intent": "account_opening", "text": "Can I open an account online?" },
+  { "intent": "account_opening", "text": "Do you offer zero-balance accounts?" },
+  { "intent": "account_opening", "text": "Where do I apply for a new account?" },
+  { "intent": "account_opening", "text": "I'm a student — can I get an account?" },
+  { "intent": "account_opening", "text": "I'd like to open a new bank account." },
+  { "intent": "account_opening", "text": "Tell me how to set up an account." },
+  { "intent": "account_opening", "text": "Is it possible to create an account digitally?" },
+  { "intent": "account_opening", "text": "Can I start an account from my phone?" },
+  { "intent": "account_opening", "text": "How do I register for a current account?" },
+  { "intent": "account_opening", "text": "Where can I sign up for a bank account?" },
+  { "intent": "account_opening", "text": "What's needed to get a savings account?" },
+  { "intent": "account_opening", "text": "Can I walk into a branch to start an account?" },
+  { "intent": "account_opening", "text": "Process for opening an account please." },
+  { "intent": "account_opening", "text": "Do I need ID to open an account?" },
+
+  { "intent": "branch_locator", "text": "Does your branch have locker service?" },
+  { "intent": "branch_locator", "text": "Branch opening hours?" },
+  { "intent": "branch_locator", "text": "Where is your nearest branch?" },
+  { "intent": "branch_locator", "text": "Do you have weekend hours?" },
+  { "intent": "branch_locator", "text": "Find an ATM nearby" },
+  { "intent": "branch_locator", "text": "Working hours of nearest branch" },
+  { "intent": "branch_locator", "text": "How to reach your branch?" },
+  { "intent": "branch_locator", "text": "ATM locations?" },
+  { "intent": "branch_locator", "text": "What services are at the branch?" },
+  { "intent": "branch_locator", "text": "Branch locator please" },
+  { "intent": "branch_locator", "text": "Where's your closest ATM?" },
+  { "intent": "branch_locator", "text": "Find nearby branches." },
+  { "intent": "branch_locator", "text": "Do you have a location near me?" },
+  { "intent": "branch_locator", "text": "What's your branch timing on weekends?" },
+  { "intent": "branch_locator", "text": "Are there any branches open today?" },
+  { "intent": "branch_locator", "text": "Tell me where your main office is." },
+  { "intent": "branch_locator", "text": "List all locations in Colombo." },
+  { "intent": "branch_locator", "text": "Branch that's open right now?" },
+  { "intent": "branch_locator", "text": "Give me the map link to a branch." },
+  { "intent": "branch_locator", "text": "Where is your nearest outlet?" },
+
+  { "intent": "cards", "text": "Can I block my credit card?" },
+  { "intent": "cards", "text": "Fees on credit cards" },
+  { "intent": "cards", "text": "Benefits of your cards" },
+  { "intent": "cards", "text": "Reset my card PIN" },
+  { "intent": "cards", "text": "I want a debit card" },
+  { "intent": "cards", "text": "Do you have prepaid cards?" },
+  { "intent": "cards", "text": "Lost my card, what should I do?" },
+  { "intent": "cards", "text": "What are the card options?" },
+  { "intent": "cards", "text": "How to apply for a credit card?" },
+  { "intent": "cards", "text": "Tell me about debit card features" },
+  { "intent": "cards", "text": "What types of credit cards do you offer?" },
+  { "intent": "cards", "text": "Are there annual charges on debit cards?" },
+  { "intent": "cards", "text": "How can I get a new card?" },
+  { "intent": "cards", "text": "Do you offer student credit cards?" },
+  { "intent": "cards", "text": "Are there any travel rewards on your cards?" },
+
+  { "intent": "digital_banking", "text": "App login not working" },
+  { "intent": "digital_banking", "text": "How to use mobile app?" },
+  { "intent": "digital_banking", "text": "Update the app" },
+  { "intent": "digital_banking", "text": "Steps to use your app" },
+  { "intent": "digital_banking", "text": "Issues with online banking" },
+  { "intent": "digital_banking", "text": "Login error" },
+  { "intent": "digital_banking", "text": "Do you have desktop banking?" },
+  { "intent": "digital_banking", "text": "Banking app features" },
+  { "intent": "digital_banking", "text": "Guide to internet banking" },
+  { "intent": "digital_banking", "text": "Can't sign in" },
+  { "intent": "digital_banking", "text": "How do I register for mobile banking?" },
+  { "intent": "digital_banking", "text": "Do you have an internet banking portal?" },
+  { "intent": "digital_banking", "text": "Can I use UPI with your bank?" },
+  { "intent": "digital_banking", "text": "Is your banking app available on iOS?" },
+  { "intent": "digital_banking", "text": "Can I manage my account online?" },
+  { "intent": "digital_banking", "text": "Do you have mobile banking?" },
+  { "intent": "digital_banking", "text": "How do I register for net banking?" },
+  { "intent": "digital_banking", "text": "Can I use your app?" },
+  { "intent": "digital_banking", "text": "Tell me about internet banking." },
+  { "intent": "digital_banking", "text": "How can I activate mobile access?" },
+  { "intent": "digital_banking", "text": "Digital services available?" },
+  { "intent": "digital_banking", "text": "How do I login to online banking?" },
+  { "intent": "digital_banking", "text": "Where can I download the app?" },
+  { "intent": "digital_banking", "text": "Do you support online transactions?" },
+
+  { "intent": "feedback", "text": "Leave a comment" },
+  { "intent": "feedback", "text": "Submit a review" },
+  { "intent": "feedback", "text": "Where to write feedback?" },
+  { "intent": "feedback", "text": "Send feedback to the bank" },
+  { "intent": "feedback", "text": "Tell someone my experience" },
+  { "intent": "feedback", "text": "Your service was great" },
+  { "intent": "feedback", "text": "I want to suggest something" },
+  { "intent": "feedback", "text": "I want to give feedback" },
+  { "intent": "feedback", "text": "I have a complaint" },
+  { "intent": "feedback", "text": "I want to rate this service" },
+  { "intent": "feedback", "text": "I want to leave a review." },
+  { "intent": "feedback", "text": "Where can I rate your service?" },
+  { "intent": "feedback", "text": "Feedback form?" },
+  { "intent": "feedback", "text": "Submit suggestion." },
+  { "intent": "feedback", "text": "Share feedback." },
+  { "intent": "feedback", "text": "How do I suggest improvement?" },
+  { "intent": "feedback", "text": "Give feedback about app." },
+  { "intent": "feedback", "text": "Provide opinion." },
+  { "intent": "feedback", "text": "Make a complaint or suggestion." },
+  { "intent": "feedback", "text": "I want to say something about your service." },
+
+  { "intent": "funds_transfer", "text": "What's the transfer fee?" },
+  { "intent": "funds_transfer", "text": "How do I transfer money?" },
+  { "intent": "funds_transfer", "text": "What are the steps to make a payment?" },
+  { "intent": "funds_transfer", "text": "Schedule a recurring transfer" },
+  { "intent": "funds_transfer", "text": "I need to transfer money" },
+  { "intent": "funds_transfer", "text": "NEFT or RTGS transfer instructions" },
+  { "intent": "funds_transfer", "text": "Is international transfer supported?" },
+  { "intent": "funds_transfer", "text": "How do I send money to another person?" },
+  { "intent": "funds_transfer", "text": "Can I use UPI to send money?" },
+  { "intent": "funds_transfer", "text": "Can I send funds to another bank?" },
+  { "intent": "funds_transfer", "text": "How do I send money to someone?" },
+  { "intent": "funds_transfer", "text": "Can I make an online transfer?" },
+  { "intent": "funds_transfer", "text": "Tell me how to transfer funds" },
+  { "intent": "funds_transfer", "text": "Is NEFT supported?" },
+  { "intent": "funds_transfer", "text": "Is RTGS available for fund transfer?" },
+  { "intent": "funds_transfer", "text": "I want to move money to another account" },
+  { "intent": "funds_transfer", "text": "Help me with sending money" },
+  { "intent": "funds_transfer", "text": "How to pay someone through your bank?" },
+  { "intent": "funds_transfer", "text": "Guide me on transferring money" },
+  { "intent": "funds_transfer", "text": "Make a transfer to another account" },
+  { "intent": "funds_transfer", "text": "Schedule a payment to a friend" },
+  { "intent": "funds_transfer", "text": "Set up a recurring transfer" },
+  { "intent": "funds_transfer", "text": "How can I wire money?" },
+  { "intent": "funds_transfer", "text": "Is there a limit for fund transfers?" },
+  { "intent": "funds_transfer", "text": "Transfer money using UPI" },
+  { "intent": "funds_transfer", "text": "How do I use IMPS?" },
+  { "intent": "funds_transfer", "text": "What are the charges for sending money?" },
+  { "intent": "funds_transfer", "text": "Transfer to my own account in another bank" },
+  { "intent": "funds_transfer", "text": "Can I do a same-day transfer?" },
+  { "intent": "funds_transfer", "text": "Does your bank support international transfers?" },
+  { "intent": "funds_transfer", "text": "Send funds to another account" },
+  { "intent": "funds_transfer", "text": "Bank-to-bank transfer help" },
+  { "intent": "funds_transfer", "text": "Walk me through a fund transfer" },
+
   { "intent": "greetings", "text": "hi" },
   { "intent": "greetings", "text": "hello" },
   { "intent": "greetings", "text": "hey" },
@@ -9,581 +151,166 @@
   { "intent": "greetings", "text": "what's up" },
   { "intent": "greetings", "text": "sup" },
   { "intent": "greetings", "text": "hi there" },
-  {
-    "intent": "loans",
-    "text": "How much EMI for 5 lakh?"
-  },
-  {
-    "intent": "funds_transfer",
-    "text": "What\u2019s the transfer fee?"
-  },
-  {
-    "intent": "offers",
-    "text": "Do you have cashbacks?"
-  },
-  {
-    "intent": "regulatory",
-    "text": "Is KYC needed?"
-  },
-  {
-    "intent": "account_opening",
-    "text": "Open a checking account"
-  },
-  {
-    "intent": "account_opening",
-    "text": "How can I register for a bank account?"
-  },
-  {
-    "intent": "feedback",
-    "text": "Leave a comment"
-  },
-  {
-    "intent": "regulatory",
-    "text": "Where to upload KYC?"
-  },
-  {
-    "intent": "offers",
-    "text": "Shopping offers through cards?"
-  },
-  {
-    "intent": "offers",
-    "text": "Referral bonuses?"
-  },
-  {
-    "intent": "cards",
-    "text": "Can I block my credit card?"
-  },
-  {
-    "intent": "investments",
-    "text": "Return on investment options?"
-  },
-  {
-    "intent": "digital_banking",
-    "text": "App login not working"
-  },
-  {
-    "intent": "investments",
-    "text": "What's the minimum deposit for FD?"
-  },
-  {
-    "intent": "investments",
-    "text": "Mutual fund investment options"
-  },
-  {
-    "intent": "account_opening",
-    "text": "How do I open an account?"
-  },
-  {
-    "intent": "security",
-    "text": "Lost my login details"
-  },
-  {
-    "intent": "offers",
-    "text": "Sign up reward?"
-  },
-  {
-    "intent": "funds_transfer",
-    "text": "How do I transfer money?"
-  },
-  {
-    "intent": "security",
-    "text": "OTP protection advice"
-  },
-  {
-    "intent": "support",
-    "text": "How do I talk to a representative?"
-  },
-  {
-    "intent": "feedback",
-    "text": "Submit a review"
-  },
-  {
-    "intent": "loans",
-    "text": "Apply for a business loan"
-  },
-  {
-    "intent": "cards",
-    "text": "Fees on credit cards"
-  },
-  {
-    "intent": "regulatory",
-    "text": "Submit FATCA forms?"
-  },
-  {
-    "intent": "account_opening",
-    "text": "I want to create a new account"
-  },
-  {
-    "intent": "loans",
-    "text": "Loan eligibility criteria"
-  },
-  {
-    "intent": "regulatory",
-    "text": "Do I need to verify my PAN?"
-  },
-  {
-    "intent": "regulatory",
-    "text": "Tax document help"
-  },
-  {
-    "intent": "digital_banking",
-    "text": "How to use mobile app?"
-  },
-  {
-    "intent": "feedback",
-    "text": "Where to write feedback?"
-  },
-  {
-    "intent": "cards",
-    "text": "Benefits of your cards"
-  },
-  {
-    "intent": "digital_banking",
-    "text": "Update the app"
-  },
-  {
-    "intent": "account_opening",
-    "text": "Steps to open a savings account"
-  },
-  {
-    "intent": "cards",
-    "text": "Reset my card PIN"
-  },
-  {
-    "intent": "regulatory",
-    "text": "KYC documents required?"
-  },
-  {
-    "intent": "offers",
-    "text": "Any sales ongoing?"
-  },
-  {
-    "intent": "cards",
-    "text": "I want a debit card"
-  },
-  {
-    "intent": "regulatory",
-    "text": "How to do KYC?"
-  },
-  {
-    "intent": "investments",
-    "text": "Lock-in period for FDs?"
-  },
-  {
-    "intent": "funds_transfer",
-    "text": "What are the steps to make a payment?"
-  },
-  {
-    "intent": "loans",
-    "text": "How to get a personal loan?"
-  },
-  {
-    "intent": "funds_transfer",
-    "text": "Schedule a recurring transfer"
-  },
-  {
-    "intent": "digital_banking",
-    "text": "Steps to use your app"
-  },
-  {
-    "intent": "regulatory",
-    "text": "What is KYC?"
-  },
-  {
-    "intent": "security",
-    "text": "Account got hacked"
-  },
-  {
-    "intent": "regulatory",
-    "text": "Can I skip FATCA?"
-  },
-  {
-    "intent": "investments",
-    "text": "Where to open FD?"
-  },
-  {
-    "intent": "security",
-    "text": "Enable 2FA"
-  },
-  {
-    "intent": "digital_banking",
-    "text": "Issues with online banking"
-  },
-  {
-    "intent": "funds_transfer",
-    "text": "I need to transfer money"
-  },
-  {
-    "intent": "regulatory",
-    "text": "FATCA declaration process"
-  },
-  {
-    "intent": "investments",
-    "text": "Do you offer investment advice?"
-  },
-  {
-    "intent": "cards",
-    "text": "Do you have prepaid cards?"
-  },
-  {
-    "intent": "branch_locator",
-    "text": "Does your branch have locker service?"
-  },
-  {
-    "intent": "feedback",
-    "text": "Send feedback to the bank"
-  },
-  {
-    "intent": "support",
-    "text": "Phone number for help"
-  },
-  {
-    "intent": "cards",
-    "text": "Lost my card, what should I do?"
-  },
-  {
-    "intent": "feedback",
-    "text": "Tell someone my experience"
-  },
-  {
-    "intent": "account_opening",
-    "text": "What are the requirements to open an account?"
-  },
-  {
-    "intent": "loans",
-    "text": "Home loan interest rates?"
-  },
-  {
-    "intent": "investments",
-    "text": "Financial planning services available?"
-  },
-  {
-    "intent": "feedback",
-    "text": "Your service was great"
-  },
-  {
-    "intent": "branch_locator",
-    "text": "Branch opening hours?"
-  },
-  {
-    "intent": "funds_transfer",
-    "text": "NEFT or RTGS transfer instructions"
-  },
-  {
-    "intent": "branch_locator",
-    "text": "Where is your nearest branch?"
-  },
-  {
-    "intent": "digital_banking",
-    "text": "Banking app features"
-  },
-  {
-    "intent": "security",
-    "text": "Banking security tips"
-  },
-  {
-    "intent": "security",
-    "text": "Get fraud alerts"
-  },
-  {
-    "intent": "security",
-    "text": "Report fraud"
-  },
-  {
-    "intent": "offers",
-    "text": "Tell me about promotions"
-  },
-  {
-    "intent": "branch_locator",
-    "text": "Do you have weekend hours?"
-  },
-  {
-    "intent": "investments",
-    "text": "How do I start an FD?"
-  },
-  {
-    "intent": "support",
-    "text": "Raise an issue"
-  },
-  {
-    "intent": "cards",
-    "text": "What are the card options?"
-  },
-  {
-    "intent": "offers",
-    "text": "Festival deals?"
-  },
-  {
-    "intent": "support",
-    "text": "How to contact support?"
-  },
-  {
-    "intent": "offers",
-    "text": "Current offers?"
-  },
-  {
-    "intent": "funds_transfer",
-    "text": "Is international transfer supported?"
-  },
-  {
-    "intent": "digital_banking",
-    "text": "Login error"
-  },
-  {
-    "intent": "funds_transfer",
-    "text": "How do I send money to another person?"
-  },
-  {
-    "intent": "digital_banking",
-    "text": "Do you have desktop banking?"
-  },
-  {
-    "intent": "cards",
-    "text": "Tell me about debit card features"
-  },
-  {
-    "intent": "loans",
-    "text": "Car loan application process"
-  },
-  {
-    "intent": "branch_locator",
-    "text": "Find an ATM nearby"
-  },
-  {
-    "intent": "account_opening",
-    "text": "Guide me through opening an account"
-  },
-  {
-    "intent": "support",
-    "text": "I have a problem"
-  },
-  {
-    "intent": "support",
-    "text": "I want to file a complaint"
-  },
-  {
-    "intent": "cards",
-    "text": "How to apply for a credit card?"
-  },
-  {
-    "intent": "account_opening",
-    "text": "Start a new account"
-  },
-  {
-    "intent": "support",
-    "text": "Customer service help"
-  },
-  {
-    "intent": "branch_locator",
-    "text": "Working hours of nearest branch"
-  },
-  {
-    "intent": "security",
-    "text": "What to do if scammed?"
-  },
-  {
-    "intent": "branch_locator",
-    "text": "How to reach your branch?"
-  },
-  {
-    "intent": "feedback",
-    "text": "I want to suggest something"
-  },
-  {
-    "intent": "digital_banking",
-    "text": "Guide to internet banking"
-  },
-  {
-    "intent": "security",
-    "text": "Report suspicious transaction"
-  },
-  {
-    "intent": "feedback",
-    "text": "I want to give feedback"
-  },
-  {
-    "intent": "support",
-    "text": "Need assistance"
-  },
-  {
-    "intent": "support",
-    "text": "Submit a support request"
-  },
-  {
-    "intent": "loans",
-    "text": "Rate of interest on loans"
-  },
-  {
-    "intent": "feedback",
-    "text": "I want to rate this service"
-  },
-  {
-    "intent": "support",
-    "text": "Chat with support"
-  },
-  {
-    "intent": "offers",
-    "text": "Discounts on cards?"
-  },
-  {
-    "intent": "branch_locator",
-    "text": "ATM locations?"
-  },
-  {
-    "intent": "investments",
-    "text": "Fixed deposit interest rates"
-  },
-  {
-    "intent": "loans",
-    "text": "Education loan info"
-  },
-  {
-    "intent": "digital_banking",
-    "text": "Can't sign in"
-  },
-  {
-    "intent": "branch_locator",
-    "text": "What services are at the branch?"
-  },
-  {
-    "intent": "account_opening",
-    "text": "Help me start a bank account"
-  },
-  {
-    "intent": "branch_locator",
-    "text": "Branch locator please"
-  },
-  {
-    "intent": "loans",
-    "text": "Do you provide gold loans?"
-  },
-  {
-    "intent": "loans",
-    "text": "What loans do you offer?"
-  },
-  {
-    "intent": "funds_transfer",
-    "text": "Can I use UPI to send money?"
-  },
-  {
-    "intent": "account_opening",
-    "text": "Can I open an account online?"
-  },
-  {
-    "intent": "funds_transfer",
-    "text": "Can I send funds to another bank?"
-  },
-  {
-    "intent": "security",
-    "text": "Safe banking practices"
-  },
-  {
-    "intent": "offers",
-    "text": "Loan offer rates?"
-  },
-  {
-    "intent": "investments",
-    "text": "How safe are mutual funds?"
-  },
-  {
-    "intent": "feedback",
-    "text": "I have a complaint"
-  },
+  { "intent": "greetings", "text": "hello there" },
+  { "intent": "greetings", "text": "greetings" },
 
-  {
-    "intent": "funds_transfer",
-    "text": "How do I send money to someone?"
-  },
-  {
-    "intent": "funds_transfer",
-    "text": "Can I make an online transfer?"
-  },
-  {
-    "intent": "funds_transfer",
-    "text": "Tell me how to transfer funds"
-  },
-  {
-    "intent": "funds_transfer",
-    "text": "Is NEFT supported?"
-  },
-  {
-    "intent": "funds_transfer",
-    "text": "Is RTGS available for fund transfer?"
-  },
-  {
-    "intent": "funds_transfer",
-    "text": "I want to move money to another account"
-  },
-  {
-    "intent": "funds_transfer",
-    "text": "Help me with sending money"
-  },
-  {
-    "intent": "funds_transfer",
-    "text": "How to pay someone through your bank?"
-  },
-  {
-    "intent": "funds_transfer",
-    "text": "Guide me on transferring money"
-  },
-  {
-    "intent": "funds_transfer",
-    "text": "Can I transfer to another bank?"
-  },
-  {
-    "intent": "funds_transfer",
-    "text": "Make a transfer to another account"
-  },
-  {
-    "intent": "funds_transfer",
-    "text": "Schedule a payment to a friend"
-  },
-  {
-    "intent": "funds_transfer",
-    "text": "Set up a recurring transfer"
-  },
-  {
-    "intent": "funds_transfer",
-    "text": "How can I wire money?"
-  },
-  {
-    "intent": "funds_transfer",
-    "text": "Is there a limit for fund transfers?"
-  },
-  {
-    "intent": "funds_transfer",
-    "text": "Transfer money using UPI"
-  },
-  {
-    "intent": "funds_transfer",
-    "text": "How do I use IMPS?"
-  },
-  {
-    "intent": "funds_transfer",
-    "text": "What are the charges for sending money?"
-  },
-  {
-    "intent": "funds_transfer",
-    "text": "Transfer to my own account in another bank"
-  },
-  {
-    "intent": "funds_transfer",
-    "text": "Can I do a same-day transfer?"
-  },
-  {
-    "intent": "funds_transfer",
-    "text": "Does your bank support international transfers?"
-  },
-  {
-    "intent": "funds_transfer",
-    "text": "Send funds to another account"
-  },
-  {
-    "intent": "funds_transfer",
-    "text": "Bank-to-bank transfer help"
-  },
-  {
-    "intent": "funds_transfer",
-    "text": "Walk me through a fund transfer"
-  }
+  { "intent": "investments", "text": "Return on investment options?" },
+  { "intent": "investments", "text": "What's the minimum deposit for FD?" },
+  { "intent": "investments", "text": "Mutual fund investment options" },
+  { "intent": "investments", "text": "Lock-in period for FDs?" },
+  { "intent": "investments", "text": "Where to open FD?" },
+  { "intent": "investments", "text": "Do you offer investment advice?" },
+  { "intent": "investments", "text": "Financial planning services available?" },
+  { "intent": "investments", "text": "How do I start an FD?" },
+  { "intent": "investments", "text": "Fixed deposit interest rates" },
+  { "intent": "investments", "text": "How safe are mutual funds?" },
+  { "intent": "investments", "text": "Can I open a fixed deposit as a new user?" },
+  { "intent": "investments", "text": "What's the minimum for an FD?" },
+  { "intent": "investments", "text": "Do you offer recurring deposit options?" },
+  { "intent": "investments", "text": "How do I start investing through the bank?" },
+  { "intent": "investments", "text": "Do I need to visit a branch for investing?" },
+  { "intent": "investments", "text": "fixed deposits" },
+  { "intent": "investments", "text": "tell me about fixed deposits" },
+  { "intent": "investments", "text": "do you have FDs?" },
+  { "intent": "investments", "text": "fixed deposit interest rates" },
+  { "intent": "investments", "text": "can I invest in fixed deposits?" },
+  { "intent": "investments", "text": "what about fixed deposits?" },
+  { "intent": "investments", "text": "tell me about your FDs" },
+  { "intent": "investments", "text": "do you offer investment options?" },
+  { "intent": "investments", "text": "How do I begin investing with you?" },
+  { "intent": "investments", "text": "Minimum amount to invest?" },
+  { "intent": "investments", "text": "Investment options available?" },
+  { "intent": "investments", "text": "Tell me about fixed return savings." },
+  { "intent": "investments", "text": "FD interest details?" },
+  { "intent": "investments", "text": "Investment plans for seniors?" },
+  { "intent": "investments", "text": "Do you offer high-interest accounts?" },
+  { "intent": "investments", "text": "Can I get a monthly payout from FD?" },
+  { "intent": "investments", "text": "How to lock in a fixed deposit?" },
+  { "intent": "investments", "text": "What's the process for FD application?"},
+
+  { "intent": "loans", "text": "How much EMI for 5 lakh?" },
+  { "intent": "loans", "text": "Apply for a business loan" },
+  { "intent": "loans", "text": "Loan eligibility criteria" },
+  { "intent": "loans", "text": "How to get a personal loan?" },
+  { "intent": "loans", "text": "Home loan interest rates?" },
+  { "intent": "loans", "text": "Car loan application process" },
+  { "intent": "loans", "text": "Rate of interest on loans" },
+  { "intent": "loans", "text": "Education loan info" },
+  { "intent": "loans", "text": "Do you provide gold loans?" },
+  { "intent": "loans", "text": "What loans do you offer?" },
+  { "intent": "loans", "text": "Do you offer loans for education?" },
+  { "intent": "loans", "text": "Can I get a home loan from your bank?" },
+  { "intent": "loans", "text": "How do I check if I'm eligible for a loan?" },
+  { "intent": "loans", "text": "What's the interest rate for personal loans?" },
+  { "intent": "loans", "text": "Where can I apply for a car loan?" },
+
+  { "intent": "offers", "text": "Do you have cashbacks?" },
+  { "intent": "offers", "text": "Shopping offers through cards?" },
+  { "intent": "offers", "text": "Referral bonuses?" },
+  { "intent": "offers", "text": "Sign up reward?" },
+  { "intent": "offers", "text": "Any sales ongoing?" },
+  { "intent": "offers", "text": "Tell me about promotions" },
+  { "intent": "offers", "text": "Festival deals?" },
+  { "intent": "offers", "text": "Current offers?" },
+  { "intent": "offers", "text": "Discounts on cards?" },
+  { "intent": "offers", "text": "Loan offer rates?" },
+  { "intent": "offers", "text": "Do you have welcome offers for new customers?" },
+  { "intent": "offers", "text": "Any cashback on using your card?" },
+  { "intent": "offers", "text": "Are there festival offers?" },
+  { "intent": "offers", "text": "Where can I check ongoing promotions?" },
+  { "intent": "offers", "text": "Do you offer any referral bonuses?" },
+  { "intent": "offers", "text": "Do you give cashback?" },
+  { "intent": "offers", "text": "Are there any current offers?" },
+  { "intent": "offers", "text": "Show me promotions." },
+  { "intent": "offers", "text": "Any referral bonuses?" },
+  { "intent": "offers", "text": "What are your festival deals?" },
+  { "intent": "offers", "text": "Do I get rewards with new account?" },
+  { "intent": "offers", "text": "Tell me about your discounts." },
+  { "intent": "offers", "text": "Any ongoing cashback deals?" },
+  { "intent": "offers", "text": "Are there signup rewards?" },
+  { "intent": "offers", "text": "Cashback offers for new users?" },
+  { "intent": "offers", "text": "Any limited-time deals going on?" },
+  { "intent": "offers", "text": "Do you give offers on account opening?" },
+  { "intent": "offers", "text": "Show me your latest promotions." },
+  { "intent": "offers", "text": "Any seasonal rewards available?" },
+  { "intent": "offers", "text": "Is there a joining bonus?" },
+  { "intent": "offers", "text": "New user benefits for using cards?" },
+  { "intent": "offers", "text": "Do I get free vouchers when I join?" },
+  { "intent": "offers", "text": "Refer-a-friend rewards?" },
+  { "intent": "offers", "text": "Do you run festival banking offers?" },
+  { "intent": "offers", "text": "Any app-exclusive discounts?" },
+
+  { "intent": "regulatory", "text": "Is KYC needed?" },
+  { "intent": "regulatory", "text": "Where to upload KYC?" },
+  { "intent": "regulatory", "text": "Submit FATCA forms?" },
+  { "intent": "regulatory", "text": "Do I need to verify my PAN?" },
+  { "intent": "regulatory", "text": "Tax document help" },
+  { "intent": "regulatory", "text": "KYC documents required?" },
+  { "intent": "regulatory", "text": "How to do KYC?" },
+  { "intent": "regulatory", "text": "What is KYC?" },
+  { "intent": "regulatory", "text": "Can I skip FATCA?" },
+  { "intent": "regulatory", "text": "FATCA declaration process" },
+  { "intent": "regulatory", "text": "What forms are required for KYC?" },
+  { "intent": "regulatory", "text": "How do I upload identity proof?" },
+  { "intent": "regulatory", "text": "Where to submit tax documents?" },
+  { "intent": "regulatory", "text": "Do you need my PAN card?" },
+  { "intent": "regulatory", "text": "What is FATCA declaration?" },
+  { "intent": "regulatory", "text": "Is eKYC available at your bank?" },
+  { "intent": "regulatory", "text": "I want to update my KYC details." },
+  { "intent": "regulatory", "text": "Can I skip FATCA if I'm local?" },
+  { "intent": "regulatory", "text": "Where do I add my Aadhaar info?" },
+  { "intent": "regulatory", "text": "What if I miss KYC deadline?" },
+
+  { "intent": "security", "text": "Lost my login details" },
+  { "intent": "security", "text": "OTP protection advice" },
+  { "intent": "security", "text": "Account got hacked" },
+  { "intent": "security", "text": "Enable 2FA" },
+  { "intent": "security", "text": "Banking security tips" },
+  { "intent": "security", "text": "Get fraud alerts" },
+  { "intent": "security", "text": "Report fraud" },
+  { "intent": "security", "text": "What to do if scammed?" },
+  { "intent": "security", "text": "Safe banking practices" },
+  { "intent": "security", "text": "Report suspicious transaction" },
+  { "intent": "security", "text": "How do I keep my online banking secure?" },
+  { "intent": "security", "text": "Is 2FA mandatory?" },
+  { "intent": "security", "text": "How does the bank handle fraud?" },
+  { "intent": "security", "text": "What should I do if I see a suspicious charge?" },
+  { "intent": "security", "text": "Do you offer fraud protection?" },
+  { "intent": "security", "text": "Is your app secure?" },
+  { "intent": "security", "text": "Do you protect my data?" },
+  { "intent": "security", "text": "How to report fraud?" },
+  { "intent": "security", "text": "Online safety tips?" },
+  { "intent": "security", "text": "Is two-factor authentication enabled?" },
+  { "intent": "security", "text": "Are my payments protected?" },
+  { "intent": "security", "text": "Does the bank alert for fraud?" },
+  { "intent": "security", "text": "How secure is mobile banking?" },
+  { "intent": "security", "text": "Tips to avoid scams?" },
+  { "intent": "security", "text": "Can I trust your website for payments?" },
+
+  { "intent": "support", "text": "How do I talk to a representative?" },
+  { "intent": "support", "text": "Phone number for help" },
+  { "intent": "support", "text": "Raise an issue" },
+  { "intent": "support", "text": "How to contact support?" },
+  { "intent": "support", "text": "I have a problem" },
+  { "intent": "support", "text": "I want to file a complaint" },
+  { "intent": "support", "text": "Customer service help" },
+  { "intent": "support", "text": "Need assistance" },
+  { "intent": "support", "text": "Submit a support request" },
+  { "intent": "support", "text": "Chat with support" },
+  { "intent": "support", "text": "How can I reach customer support?" },
+  { "intent": "support", "text": "Is there a live chat option?" },
+  { "intent": "support", "text": "Can I get help through your app?" },
+  { "intent": "support", "text": "Where do I file a service complaint?" },
+  { "intent": "support", "text": "Do you offer weekend support?" },
+  { "intent": "support", "text": "How to reach support?" },
+  { "intent": "support", "text": "Can I talk to a human agent?" },
+  { "intent": "support", "text": "Support contact info?" },
+  { "intent": "support", "text": "Where is your help center?" },
+  { "intent": "support", "text": "Customer care number?" },
+  { "intent": "support", "text": "Live chat option?" },
+  { "intent": "support", "text": "Is your support 24/7?" },
+  { "intent": "support", "text": "How do I get help?" },
+  { "intent": "support", "text": "Need assistance with account opening." },
+  { "intent": "support", "text": "Where can I raise a complaint?" }
+
 ]

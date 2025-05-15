@@ -50,7 +50,7 @@
   <!-- Chat Panel (Right Third) -->
   <div class="page-wrapper">
     <div class="chat-wrapper">
-      <div class="chat-container">
+      <div class="chat-container" style="height: 100%; overflow: hidden;">
         <div id="chat-box"></div>
         <div class="input-card">
           <form id="chat-form" class="chat-input-area">
@@ -82,28 +82,39 @@
     const form = document.getElementById('chat-form');
     const chatBox = document.getElementById('chat-box');
     const input = document.getElementById('user-input');
-
+    
+    // Add the first message at the BOTTOM (due to column-reverse, we insert at top)
     window.addEventListener("DOMContentLoaded", () => {
-      chatBox.innerHTML +=
+      chatBox.insertAdjacentHTML(
+        'afterbegin',
         `<div class="message bot-message">
-           Welcome to GolfWang Bank. How can I help you today?
-         </div>`;
-      chatBox.scrollTop = chatBox.scrollHeight;
+          Welcome to GolfWang Bank. How can I help you today?
+        </div>`
+      );
     });
-
+  
     form.addEventListener("submit", async (e) => {
       e.preventDefault();
       const msg = input.value.trim();
       if (!msg) return;
-      chatBox.innerHTML += `<div class="message user-message">${msg}</div>`;
+    
+      // Add user message
+      chatBox.insertAdjacentHTML(
+        'afterbegin',
+        `<div class="message user-message">${msg}</div>`
+      );
       input.value = "";
-
+    
+      // Send to backend
       const res = await fetch("/chat", {
         method: "POST",
         headers: {'Content-Type': 'application/json'},
-        body: JSON.stringify({message: msg})
+        body: JSON.stringify({ message: msg })
       });
+    
       const { response } = await res.json();
+    
+      // Create bot message div
       const botDiv = document.createElement("div");
       botDiv.className = "message bot-message";
       botDiv.innerHTML = `
@@ -122,25 +133,28 @@
             </svg>
           </button>
         </div>`;
-      chatBox.appendChild(botDiv);
-      chatBox.scrollTop = chatBox.scrollHeight;
+      
+      // Insert bot response at the top (visually bottom)
+      chatBox.insertAdjacentElement('afterbegin', botDiv);
     });
-
+  
+    // Optional: feedback button handler (you can keep or remove this block)
     chatBox.addEventListener("click", async (e) => {
-      if (!e.target.classList.contains("thumb")) return;
-      const feedback = e.target.dataset.value;
-      const messageText = e.target
-        .closest(".bot-message")
-        .innerText
-        .split("\n")[0]
-        .trim();
+      if (!e.target.closest(".feedback-btn")) return;
+    
+      const button = e.target.closest(".feedback-btn");
+      const feedback = button.dataset.value;
+      const messageText = button.closest(".bot-message").innerText.trim().split("\n")[0];
+    
       await fetch("/feedback", {
         method: "POST",
         headers: {'Content-Type': 'application/json'},
-        body: JSON.stringify({message: messageText, feedback})
+        body: JSON.stringify({ message: messageText, feedback })
       });
-      e.target.parentElement.innerHTML = "Thanks for your feedback!";
+    
+      button.parentElement.innerHTML = "Thanks for your feedback!";
     });
   </script>
+
 </body>
 </html>

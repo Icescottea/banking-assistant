@@ -40,8 +40,8 @@ body, html {
   display: flex;
   flex-direction: column;
   height: 100%;
-  border-radius: 16px; 
   overflow: hidden;
+  border-radius: 16px;
   background-color: #111b21;
   background-image: url("https://www.transparenttextures.com/patterns/wild-flowers.png");
   background-repeat: repeat;
@@ -49,17 +49,18 @@ body, html {
   background-position: center;
 }
 
+
 #chat-box {
   flex: 1;
-  display: flex;
-  flex-direction: column;   
-  justify-content: flex-end;   
   overflow-y: auto;
   padding: 20px;
-  padding-bottom: 100px;
+  display: flex;
+  flex-direction: column-reverse;
   gap: 10px;
-  max-height: none !important;
-  transition: none;
+  padding-bottom: 100px;
+}
+#chat-box::-webkit-scrollbar {
+  width: 8px;
 }
 
 .chat-input-area {

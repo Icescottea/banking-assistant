@@ -37,5 +37,8 @@
   },
   "greetings": {
     "response": "Hello! \ud83d\udc4b How can I assist you with your banking needs today?"
+  },
+  "fallback": {
+    "response": "I'm sorry, I didn't quite catch that. Could you try rephrasing or ask something about account opening, loans, cards, or digital banking?"
   }
 }

@@ -203,5 +203,85 @@
     "id": "feedback_3",
     "user_input": "I want to suggest an improvement",
     "expected_intent": "feedback"
+  },
+  {
+    "id": "greetings_6",
+    "user_input": "hello there",
+    "expected_intent": "greetings"
+  },
+  {
+    "id": "account_opening_4",
+    "user_input": "Can I walk into a branch and open an account?",
+    "expected_intent": "account_opening"
+  },
+  {
+    "id": "account_opening_5",
+    "user_input": "New account process?",
+    "expected_intent": "account_opening"
+  },
+  {
+    "id": "funds_transfer_4",
+    "user_input": "Is IMPS supported?",
+    "expected_intent": "funds_transfer"
+  },
+  {
+    "id": "funds_transfer_5",
+    "user_input": "What are the transfer charges?",
+    "expected_intent": "funds_transfer"
+  },
+  {
+    "id": "cards_4",
+    "user_input": "Benefits of your credit cards?",
+    "expected_intent": "cards"
+  },
+  {
+    "id": "loans_4",
+    "user_input": "I need a car loan",
+    "expected_intent": "loans"
+  },
+  {
+    "id": "investments_4",
+    "user_input": "How long is the FD lock-in?",
+    "expected_intent": "investments"
+  },
+  {
+    "id": "branch_locator_4",
+    "user_input": "Do you have Sunday hours?",
+    "expected_intent": "branch_locator"
+  },
+  {
+    "id": "support_4",
+    "user_input": "Is there a helpdesk number?",
+    "expected_intent": "support"
+  },
+  {
+    "id": "security_4",
+    "user_input": "How do I report a scam?",
+    "expected_intent": "security"
+  },
+  {
+    "id": "digital_banking_4",
+    "user_input": "Do you have desktop banking?",
+    "expected_intent": "digital_banking"
+  },
+  {
+    "id": "offers_4",
+    "user_input": "Do I get rewards on sign up?",
+    "expected_intent": "offers"
+  },
+  {
+    "id": "regulatory_4",
+    "user_input": "Documents required for KYC?",
+    "expected_intent": "regulatory"
+  },
+  {
+    "id": "feedback_4",
+    "user_input": "How do I share my thoughts about your service?",
+    "expected_intent": "feedback"
+  },
+  {
+    "id": "fallback_1",
+    "user_input": "What unicorn-backed crypto platform do you use?",
+    "expected_intent": "fallback"
   }
 ]
